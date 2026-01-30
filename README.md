@@ -62,11 +62,11 @@ public class DemoIncrement {
 Predict what values will be stored in `a` `b` `x` `y` after the program runs.
 
 **1.** Copy the code into file `DemoIncrement.java`, compile and run it.
-
+a = 4, b = 8, x = 4, y = 9
 Did it behave as you expect?
-
+yes 
 **2.** Complete the last two printed lines by replacing `xxxxx` with the correct terms.
-
+done
 **3.** Add in the extra lines of code below the line `int y = ++x + 5;`
 
 ```java
@@ -80,12 +80,12 @@ Now add code so that these terms are displayed alongside the others, so the the 
 ```
 a: _, b: _, x: _, y: _, p: _, q: _
 ```
-
+done
 **4.** Predict what the output will be if you change `++p` to `p++`. 
-
+p will be 4 and q will still be 9 as its now become post-increment instead of pre-increment but it is still incrememnted before added to q
 Make this change and check if you were correct.
 
-
+yes
 
 **5.** When you have your code working commit your code and sync to your GitHub classroom repository with the commit message:
 
